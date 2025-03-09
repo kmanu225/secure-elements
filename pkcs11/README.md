@@ -1,4 +1,4 @@
-# Introduction to PKCS#11
+# PKCS#11
 
 [PKCS#11](https://www.cryptsoft.com/pkcs11doc/) (Public-Key Cryptography Standard #11) is a platform-independent API standard for managing or using cryptographic tokens such as smartcards, HSMs (Hardware Security Modules), SSMs (Software Security Modules), and other security modules. For this usage, PKCS#11 is also called the Cryptographic Token Interface (Cryptoki).
 
@@ -9,4 +9,3 @@ PKCS#11 was first developed and maintained by RSA Labs from 1995 to 2009. Curren
 - **V2.20** has been widely used and implemented by multiple token vendors.
 - **V2.30** is still a draft.
 - **V2.40** is the first published version by OASIS.
-

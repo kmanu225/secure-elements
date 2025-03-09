@@ -36,4 +36,3 @@ Contributions to this repository are welcome! If you have insights, examples, or
 ## License
 
 This repository is licensed under the GNU general public License. See the [LICENSE](LICENSE) file for details.
-
