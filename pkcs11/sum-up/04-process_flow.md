@@ -1,5 +1,3 @@
-# Process flow
-
 # Cryptoki Session Flow
 
 A typical Cryptoki session follows these steps:
