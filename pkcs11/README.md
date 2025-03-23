@@ -19,8 +19,7 @@ The project is organized as follows:
 
 ```
 .
-├── ressources/    # Contains media files like images and videos
-├── standard/      # Contains references to PKCS#11 documentation
+├── standard/      # Contains references to PKCS#11 documentation 
 └── programs/      # Contains programs to interact with cryptographic devices using the PKCS#11 API
 ```
 
@@ -32,7 +31,6 @@ The project is organized as follows:
    cd <repository-folder>
    ```
 2. Explore the directories:
-   - **ressources/**: Browse media files.
    - **standard/**: Access PKCS#11 documentation references.
    - **programs/**: Run or modify programs interacting with PKCS#11-compliant devices.
 
