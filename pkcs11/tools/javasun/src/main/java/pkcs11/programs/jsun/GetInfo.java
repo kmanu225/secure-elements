@@ -1,4 +1,4 @@
-package civ.cryptoki;
+package pkcs11.programs.jsun;
 
 import sun.security.pkcs11.wrapper.CK_INFO;
 import sun.security.pkcs11.wrapper.CK_SLOT_INFO;
