@@ -31,7 +31,7 @@ If C tries to use Cryptoki without its own `C_Initialize` call, the behavior is 
 - Following these practices prevents dangling duplicate resources created during the `fork()` call.
 
 <p align="center">
-  <img src="../../ressources/process_flow.drawio.png" alt="Object Hierarchy">
+  <img src="ressources/process_flow.drawio.png" alt="Object Hierarchy">
 </p>
 <p align="center"><b> Session flow </b></p>  
 
