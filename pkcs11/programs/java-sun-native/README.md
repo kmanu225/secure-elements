@@ -23,7 +23,7 @@ The output JAR will be generated in the `target` directory.
 To execute the main class:
 
 ```sh
-java -jar pkcs11-1.0.jar
+java -jar jsun-<version>.jar
 ```
 
 ### Run a Specific Module
@@ -31,7 +31,7 @@ java -jar pkcs11-1.0.jar
 If you want to run a specific module, use the following command:
 
 ```sh
-java --add-exports jdk.crypto.cryptoki/sun.security.pkcs11.wrapper=ALL-UNNAMED -cp jsun-1.0.jar <module> <arguments>
+java --add-exports jdk.crypto.cryptoki/sun.security.pkcs11.wrapper=ALL-UNNAMED -cp jsun-<version>.jar <module> <arguments>
 ```
 
 See example below:
@@ -39,12 +39,12 @@ See example below:
 To get information about the cryptographic token:
 
 ```sh
-java --add-exports jdk.crypto.cryptoki/sun.security.pkcs11.wrapper=ALL-UNNAMED -cp jsun-1.0.jar pkcs11.jsun.GetInfo -info -slot -token 0
+java --add-exports jdk.crypto.cryptoki/sun.security.pkcs11.wrapper=ALL-UNNAMED -cp jsun-<version>.jar pkcs11.jsun.GetInfo -info -slot -token 0
 ```
 
 ## Troubleshooting
 
-1. **Class Not Found:** Ensure the `-cp` parameter correctly points to the `jsun-1.0.jar`.
+1. **Class Not Found:** Ensure the `-cp` parameter correctly points to the `jsun-<version>.jar`.
 2. **Access Denied Errors:** Ensure the Java version supports `--add-exports` and that the cryptographic token is correctly connected.
 3. **PKCS#11 Library Issues:** Verify the token's driver/library is correctly installed and referenced.
 
