@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- Java 11 or higher
+- Java 9 or higher
 - Maven (for building the project)
 - Cryptographic token and its corresponding PKCS#11 driver/library
 
@@ -39,7 +39,7 @@ See example below:
 To get information about the cryptographic token:
 
 ```sh
-java --add-exports jdk.crypto.cryptoki/sun.security.pkcs11.wrapper=ALL-UNNAMED -cp pkcs11-1.0.jar jsun-1.0.jar.GetInfo -info -slot -token 0
+java --add-exports jdk.crypto.cryptoki/sun.security.pkcs11.wrapper=ALL-UNNAMED -cp jsun-1.0.jar pkcs11.jsun.GetInfo -info -slot -token 0
 ```
 
 ## Troubleshooting
@@ -51,5 +51,3 @@ java --add-exports jdk.crypto.cryptoki/sun.security.pkcs11.wrapper=ALL-UNNAMED -
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
-
-

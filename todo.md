@@ -1,2 +1,0 @@
-- make a maven project for src
-- make thales client work for me

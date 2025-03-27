@@ -1,4 +1,4 @@
-package pkcs11.programs.jsun;
+package pkcs11.jsun;
 
 import sun.security.pkcs11.wrapper.CK_INFO;
 import sun.security.pkcs11.wrapper.CK_SLOT_INFO;
@@ -90,7 +90,7 @@ public class GetInfo {
         }
 
         try {
-            String ptk7Windows = "C:\\Program Files\\Safenet\\ProtectToolkit 7\\C SDK\\bin\\sw\\cryptoki.dll";
+            String ptk7Windows = "Library";
 
             String library = Utils.setupLibrary(ptk7Windows);
             PKCS11 p11 = PKCS11.getInstance(library, "C_GetFunctionList", null, false);

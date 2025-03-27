@@ -1,4 +1,4 @@
-package pkcs11.programs.jsun;
+package pkcs11.jsun;
 
 import java.io.File;
 
